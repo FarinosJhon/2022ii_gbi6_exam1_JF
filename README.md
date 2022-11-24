@@ -14,5 +14,3 @@
 - 16 GB RAM
 - 256 GB ROM SSD
 
-
-
