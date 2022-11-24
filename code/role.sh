@@ -2,7 +2,7 @@ echo "Resultados Pregunta 1"
 echo " "
 #Número de registros de cada rol del gen
 echo "Número de registros de cada rol del gen:"
-cat ../data/cancermine.csv | cut -d "," -f 1 | tail -n +2 | wc -l
+cat ../data/cancermine.csv | cut -d "," -f 1 | tail -n +2 | sort -n | uniq -c | sort
 
 #Especie y conteo más alto
 echo "Especie y conteo más alto:"
