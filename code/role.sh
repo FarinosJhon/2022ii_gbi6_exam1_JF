@@ -1,3 +1,4 @@
+
 echo "Resultados Pregunta 1"
 echo " "
 #Número de registros de cada rol del gen
